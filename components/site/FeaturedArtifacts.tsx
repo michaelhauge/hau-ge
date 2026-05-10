@@ -9,6 +9,9 @@ export function FeaturedArtifacts() {
           <div>
             <p className="mb-3 text-sm font-medium uppercase tracking-widest text-muted">
               Featured Work
+              <sup className="ml-1 font-normal normal-case tracking-normal text-muted/60">
+                {featuredArtifacts.length}
+              </sup>
             </p>
             <h2 className="max-w-2xl text-balance">
               Real artifacts from real engagements.

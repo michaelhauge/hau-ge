@@ -8,11 +8,21 @@ export function ArtifactCard({ artifact }: { artifact: Artifact }) {
       rel="noopener noreferrer"
       className="group flex flex-col overflow-hidden rounded-lg border border-border bg-background transition-all hover:-translate-y-0.5 hover:border-foreground hover:shadow-md"
     >
-      <div className="aspect-[16/10] w-full bg-subtle">
-        <div className="flex h-full w-full items-center justify-center">
-          <span className="text-xs uppercase tracking-widest text-muted">
-            {artifact.badge ?? "Artifact"}
-          </span>
+      <div className="aspect-[16/10] w-full bg-subtle p-5">
+        <div className="flex h-full w-full flex-col justify-between rounded border border-border bg-background p-4">
+          <div className="flex items-start justify-between gap-2">
+            <span className="text-[10px] font-medium uppercase tracking-widest text-muted">
+              {artifact.badge}
+            </span>
+            <span className="text-[10px] tracking-widest text-muted">PDF</span>
+          </div>
+          <div className="space-y-1.5">
+            <div className="h-1.5 w-full rounded bg-foreground/80" />
+            <div className="h-1.5 w-11/12 rounded bg-foreground/60" />
+            <div className="h-1 w-3/4 rounded bg-muted/40" />
+            <div className="h-1 w-4/5 rounded bg-muted/40" />
+            <div className="h-1 w-2/3 rounded bg-muted/40" />
+          </div>
         </div>
       </div>
       <div className="flex flex-1 flex-col gap-3 p-6">

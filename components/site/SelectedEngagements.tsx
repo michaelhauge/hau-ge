@@ -34,6 +34,9 @@ export function SelectedEngagements() {
         <div className="mb-12 max-w-2xl">
           <p className="mb-3 text-sm font-medium uppercase tracking-widest text-muted">
             Selected Engagements
+            <sup className="ml-1 font-normal normal-case tracking-normal text-muted/60">
+              {engagements.length}
+            </sup>
           </p>
           <h2 className="text-balance">
             Three recent examples, anonymised by request.

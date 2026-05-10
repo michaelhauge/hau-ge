@@ -38,6 +38,9 @@ export function HowIWork() {
         <div className="mb-16 max-w-2xl">
           <p className="mb-3 text-sm font-medium uppercase tracking-widest text-muted">
             How I Work
+            <sup className="ml-1 font-normal normal-case tracking-normal text-muted/60">
+              {principles.length}
+            </sup>
           </p>
           <h2 className="text-balance">
             Four principles behind every engagement.
