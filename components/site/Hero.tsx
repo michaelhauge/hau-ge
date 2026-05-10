@@ -1,3 +1,5 @@
+import Image from "next/image";
+
 export function Hero() {
   return (
     <section className="border-b border-border">
@@ -54,10 +56,16 @@ export function Hero() {
           </div>
 
           <div className="hidden md:col-span-4 md:block">
-            <div className="aspect-[4/5] w-full overflow-hidden rounded-lg border border-border bg-subtle">
-              <div className="flex h-full w-full items-center justify-center">
-                <span className="font-serif text-6xl italic text-muted/40">MH</span>
-              </div>
+            <div className="relative aspect-[4/5] w-full overflow-hidden rounded-lg border border-border bg-subtle">
+              <Image
+                src="/images/headshot.jpg"
+                alt="Michael Hauge"
+                fill
+                priority
+                sizes="(max-width: 768px) 0px, 360px"
+                quality={85}
+                className="object-cover object-top"
+              />
             </div>
             <p className="mt-3 text-xs text-muted">
               Michael Hauge · Kuala Lumpur
