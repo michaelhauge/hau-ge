@@ -10,11 +10,11 @@ export function Header() {
             <a href="#work" className="transition-colors hover:text-foreground">
               Work
             </a>
+            <a href="#engagements" className="transition-colors hover:text-foreground">
+              Engagements
+            </a>
             <a href="#about" className="transition-colors hover:text-foreground">
               About
-            </a>
-            <a href="#writing" className="transition-colors hover:text-foreground">
-              Writing
             </a>
           </div>
           <a
