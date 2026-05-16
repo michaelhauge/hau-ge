@@ -9,19 +9,19 @@ const principles: Principle[] = [
     number: "01",
     title: "Diagnose first.",
     description:
-      "Every engagement starts with a readiness audit. I want to see what is actually happening, not what the org wishes were happening. The audit shapes the rest of the work.",
+      "Every engagement and every investment starts with what is actually happening, not what the deck says. The diagnosis shapes the rest of the work.",
   },
   {
     number: "02",
-    title: "Train the top.",
+    title: "Practitioner depth.",
     description:
-      "AI capability changes faster when executives understand it as a craft, not a procurement decision. Senior teams set the tone; bottom-up training without top-down fluency stalls.",
+      "Whether teaching execs, shipping implementation, or deciding to back a founder, I run the workflows myself first. The work earns the right to advise on it.",
   },
   {
     number: "03",
-    title: "Pedagogy over product.",
+    title: "Build with operators.",
     description:
-      "Workshops are designed around adult learning principles, not vendor feature tours. Practitioner activities, real workflows, measurable outcomes. Tools change; the way people learn does not.",
+      "I would rather be next to the people doing the work than across the table from them. That applies to training engagements, hands-on implementation, and the founders I back.",
   },
   {
     number: "04",

@@ -1,5 +1,6 @@
 export interface Engagement {
   id: string;
+  date: string;
   buyerTitle: string;
   buyerContext: string;
   engagement: string;
@@ -11,6 +12,9 @@ export function EngagementCard({ engagement }: { engagement: Engagement }) {
     <article className="flex flex-col gap-4 border-b border-border py-10 last:border-b-0 sm:flex-row sm:items-start sm:gap-12">
       <div className="sm:w-1/3">
         <p className="text-xs font-medium uppercase tracking-widest text-muted">
+          {engagement.date}
+        </p>
+        <p className="mt-2 text-base font-semibold tracking-tight text-foreground">
           {engagement.buyerTitle}
         </p>
         <p className="mt-1 text-sm text-muted">{engagement.buyerContext}</p>

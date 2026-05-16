@@ -14,30 +14,96 @@ export function About() {
             <p>
               I am Michael Hauge. I run{" "}
               <a
+                href="https://pertamagroup.com"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="font-medium text-foreground underline-offset-4 hover:underline"
+              >
+                Pertama Group
+              </a>
+              , a founder-led platform at the intersection of AI, education,
+              and capital. Four entities do the work:{" "}
+              <a
                 href="https://pertamapartners.com"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="font-medium text-foreground underline-offset-4 hover:underline"
               >
                 Pertama Partners
-              </a>
-              , an AI-native research and advisory firm based in Kuala Lumpur,
-              and I help leadership teams across Southeast Asia and beyond
-              actually use AI well.
+              </a>{" "}
+              (AI training and advisory),{" "}
+              <a
+                href="https://pertamacapital.com"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="font-medium text-foreground underline-offset-4 hover:underline"
+              >
+                Pertama Capital
+              </a>{" "}
+              (patient capital for family businesses and private investments),{" "}
+              <a
+                href="https://pertamaventures.com"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="font-medium text-foreground underline-offset-4 hover:underline"
+              >
+                Pertama Ventures
+              </a>{" "}
+              (early-stage backing for AI-native founders), and{" "}
+              <a
+                href="https://learningleaders.com"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="font-medium text-foreground underline-offset-4 hover:underline"
+              >
+                LearningLeaders
+              </a>{" "}
+              (youth communication and leadership development).
             </p>
             <p>
               Most AI work I see falls into two camps: pundits who talk about
               the future, and engineers who ship features. I sit in a third
-              place: practitioner-led training and transformation that meets
-              senior leaders where they are. I run the workflows myself, design
-              the curriculum, and stay close to delivery.
+              place: a practitioner who runs the workflows, designs the
+              curriculum, ships the implementation, and writes the check when
+              an operator is worth backing.
             </p>
             <p>
-              I work with executives from CEOs to Heads of Learning. The
-              engagements range from a single-day workshop to a 13-month
-              cohort-based program across multiple sites. The constant: real
+              I have a particular interest in family businesses. I come out of
+              a fourth-generation U.S. family business myself, and through
+              Pertama Capital I back family-owned enterprises in Malaysia and
+              Singapore — growth capital and operational modernization for
+              businesses that already have durable demand and want to
+              professionalize without losing what made them work. I&rsquo;m
+              based in Kuala Lumpur after twelve years operating in China and
+              three in Malaysia &mdash; training and conversations available
+              in English or Mandarin depending on the audience. On the
+              venture side, fifteen years of backing exceptional founders has
+              produced a portfolio of 100+ investments across six continents
+              (Stripe, Patreon, Eight Sleep, Wonderschool, and others —{" "}
+              <a
+                href="https://pertamaventures.com/portfolio"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="font-medium text-foreground underline-offset-4 hover:underline"
+              >
+                full portfolio
+              </a>
+              ).
+            </p>
+            <p>
+              The constant across training, capital, and ventures: real
               practitioner depth, an artifact-first approach, and a refusal to
               hand-wave at the things that matter.
+            </p>
+            <p>
+              Depending on the engagement, I&rsquo;ll work with you personally,
+              or through Pertama Partners if tapping into our partner network
+              is a better fit. Either way, you get the network that comes with
+              the work: trusted lawyers and tax advisors for deal structures,
+              executive search for the seat I can&rsquo;t fill, fellow CEOs
+              and family-business operators to compare notes with, and the
+              Pertama Ventures portfolio when the right intro speeds things
+              up.
             </p>
           </div>
         </div>
