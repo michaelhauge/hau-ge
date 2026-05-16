@@ -1,36 +1,64 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# hau.ge
 
-## Getting Started
+Personal site of **Michael L. Hauge** — AI training, implementation, and financial backing for ambitious companies in Southeast Asia.
 
-First, run the development server:
+Live at **[hau.ge](https://hau.ge)**.
+
+## What this is
+
+A credibility-check landing page for senior corporate buyers arriving via warm referral, plus a writing surface for selected work. The site itself is built in the open as a small additional signal: the person you're considering for AI work has shipped his own personal site, deliberately and visibly.
+
+## Pertama Group
+
+Mike runs [Pertama Group](https://pertamagroup.com), a founder-led platform at the intersection of AI, education, and capital:
+
+- **[Pertama Partners](https://pertamapartners.com)** — AI training and advisory
+- **[Pertama Capital](https://pertamacapital.com)** — Patient capital for family businesses and private investments
+- **[Pertama Ventures](https://pertamaventures.com)** — Early-stage backing for AI-native founders
+- **[LearningLeaders](https://learningleaders.com)** — Youth communication and leadership development
+
+## Stack
+
+- **[Next.js 16](https://nextjs.org)** with the App Router
+- **React 19** + **TypeScript** (strict)
+- **Tailwind CSS v4** (`@theme inline` tokens, no `tailwind.config`)
+- **Geist** font via `next/font/google`
+- Static rendering for content pages; edge runtime for the OG image + favicon generation
+- Deployed to **Vercel** with `hau.ge` as the apex domain
+
+## Development
 
 ```bash
+npm install
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Open [http://localhost:3000](http://localhost:3000).
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+## Building locally
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+```bash
+npm run build && npm run start
+```
 
-## Learn More
+## Repository structure
 
-To learn more about Next.js, take a look at the following resources:
+```
+app/
+├── page.tsx              # Homepage
+├── layout.tsx            # Root layout, metadata, fonts
+├── globals.css           # Tailwind v4 tokens + @layer base typography
+├── contact/page.tsx      # Contact form page
+├── work/sap/page.tsx     # SAP case study
+├── opengraph-image.tsx   # Dynamic OG card (1200x630)
+├── icon.tsx              # MLH monogram favicon
+├── sitemap.ts
+└── robots.ts
+components/site/          # Page sections (Hero, About, etc.)
+lib/artifacts.ts          # Featured work tile data
+public/                   # Headshot, brand wordmarks, artifact thumbnails
+```
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+## Contact
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+[michael@hau.ge](mailto:michael@hau.ge) · [LinkedIn](https://linkedin.com/in/michaelhauge)
