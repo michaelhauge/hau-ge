@@ -14,11 +14,6 @@ interface QA {
 
 const procurement: QA[] = [
   {
-    question: "Who invoices the engagement?",
-    answer:
-      "[TO CONFIRM — legal entity name]. The invoicing entity is registered in Malaysia. We can invoice in MYR, SGD, or USD on request. Singapore-resident clients can request a Singapore-entity invoice via our partner network.",
-  },
-  {
     question: "What are standard payment terms?",
     answer:
       "30 days net from invoice date. 50% on engagement kickoff, 50% on the agreed midpoint or quarterly cadence for longer programs. Custom terms negotiable for first engagements.",
@@ -32,11 +27,6 @@ const procurement: QA[] = [
     question: "What is your stance on PDPA / GDPR / data residency?",
     answer:
       "Cohort participant data (names, survey responses, pre/post assessments) is held under PDPA 2010 (Malaysia) and equivalent regional rules. Data is processed only for program delivery and measurement. We don't use cohort data to train AI models. EU/UK participant data is handled under GDPR; ask for our data-processing addendum.",
-  },
-  {
-    question: "Do you carry professional indemnity / liability insurance?",
-    answer:
-      "[TO CONFIRM — coverage details]. Professional indemnity and public liability cover at customary levels for advisory engagements in the region. Certificates of insurance are available on request from procurement teams.",
   },
   {
     question: "Who owns the IP we create together?",
@@ -70,11 +60,6 @@ const engagement: QA[] = [
     question: "What if the program doesn't hit its outcomes?",
     answer:
       "Kirkpatrick L3 and L4 targets are agreed in writing at kickoff. If we don't hit them in the agreed window, the next quarter's retainer is on the table for renegotiation. The job is to land outcomes, not bill hours.",
-  },
-  {
-    question: "Are you an approved vendor anywhere?",
-    answer:
-      "[TO CONFIRM — current approved-vendor declarations]. Prior named-client engagements include SAP (China, 2019–2020). If your procurement team needs to add a new vendor, we can walk through the standard onboarding pack.",
   },
   {
     question: "How do training engagements relate to capital?",
@@ -127,14 +112,6 @@ export default function FAQPage() {
         <div className="mt-16 space-y-20">
           <Block title="Procurement & contracting" items={procurement} />
           <Block title="Engagement & delivery" items={engagement} />
-        </div>
-
-        <div className="mt-20 border-t border-border pt-10 text-sm text-muted">
-          <p>
-            Items marked <span className="font-mono text-foreground">[TO CONFIRM]</span> are placeholders pending verification; replaced
-            with final answers as procurement-grade documentation completes.
-            Last reviewed: May 2026.
-          </p>
         </div>
       </div>
     </section>

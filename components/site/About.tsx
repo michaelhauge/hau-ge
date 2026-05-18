@@ -125,8 +125,8 @@ export function About() {
                 <div>
                   <dt className="text-muted">Education</dt>
                   <dd className="mt-0.5 text-foreground">
-                    Deerfield Academy (Alumni Award recipient) · [TO CONFIRM
-                    — university]
+                    Deerfield Academy (Alumni Award recipient) · Dartmouth
+                    College · Fudan University
                   </dd>
                 </div>
                 <div>
@@ -144,8 +144,7 @@ export function About() {
                 <div>
                   <dt className="text-muted">Memberships</dt>
                   <dd className="mt-0.5 text-foreground">
-                    Entrepreneurs&rsquo; Organization · [TO CONFIRM &mdash;
-                    YPO, Pacific Council, others]
+                    Entrepreneurs&rsquo; Organization
                   </dd>
                 </div>
               </dl>
