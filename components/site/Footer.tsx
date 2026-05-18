@@ -50,7 +50,7 @@ export function Footer() {
             </span>
           </a>
           <a
-            href="mailto:michael@hau.ge"
+            href="mailto:michael@pertamapartners.com"
             className="transition-colors hover:text-foreground"
           >
             Email

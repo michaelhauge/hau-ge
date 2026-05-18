@@ -31,7 +31,7 @@ export function ContactForm() {
       "Context:",
       message,
     ].join("\n");
-    const url = `mailto:michael@hau.ge?subject=${encodeURIComponent(
+    const url = `mailto:michael@pertamapartners.com?subject=${encodeURIComponent(
       subject,
     )}&body=${encodeURIComponent(body)}`;
     window.location.href = url;

@@ -37,12 +37,12 @@ export function Contact() {
               </span>
             </a>
             <a
-              href="mailto:michael@hau.ge"
+              href="mailto:michael@pertamapartners.com"
               className="group inline-flex items-center justify-between gap-4 rounded-lg border border-border px-6 py-5 transition-all hover:border-foreground hover:shadow-sm"
             >
               <div>
                 <p className="text-sm text-muted">Email directly</p>
-                <p className="text-base font-medium">michael@hau.ge</p>
+                <p className="text-base font-medium">michael@pertamapartners.com</p>
               </div>
               <span aria-hidden className="transition-transform group-hover:translate-x-0.5">
                 →

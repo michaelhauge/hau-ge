@@ -30,10 +30,10 @@ export default function ContactPage() {
           <p>
             Prefer email directly?{" "}
             <a
-              href="mailto:michael@hau.ge"
+              href="mailto:michael@pertamapartners.com"
               className="font-medium text-foreground underline underline-offset-4 hover:text-muted"
             >
-              michael@hau.ge
+              michael@pertamapartners.com
             </a>
           </p>
           <p className="mt-2">
