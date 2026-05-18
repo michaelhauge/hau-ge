@@ -12,30 +12,11 @@ export function Contact() {
             </h2>
             <p className="mt-6 max-w-xl text-lg text-muted">
               Email with a request for details and I will reply with the next
-              available window. The{" "}
-              <a
-                href="/contact"
-                className="font-medium text-foreground underline underline-offset-4 hover:text-muted"
-              >
-                contact form
-              </a>{" "}
-              builds the message for you.
+              available window.
             </p>
           </div>
 
           <div className="flex flex-col gap-6 md:col-span-4 md:col-start-9">
-            <a
-              href="/contact"
-              className="group inline-flex items-center justify-between gap-4 rounded-lg border border-border bg-foreground px-6 py-5 text-background transition-all hover:bg-muted"
-            >
-              <div>
-                <p className="text-sm opacity-80">Send a request</p>
-                <p className="text-base font-medium">Open the contact form</p>
-              </div>
-              <span aria-hidden className="transition-transform group-hover:translate-x-0.5">
-                →
-              </span>
-            </a>
             <a
               href="mailto:michael@pertamapartners.com"
               className="group inline-flex items-center justify-between gap-4 rounded-lg border border-border px-6 py-5 transition-all hover:border-foreground hover:shadow-sm"
