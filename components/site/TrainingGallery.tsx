@@ -37,9 +37,9 @@ const photos: Photo[] = [
   {
     src: "/images/gallery/eo-shanghai-keynote.jpg",
     alt:
-      "Michael L. Hauge speaking with a microphone at an EO Shanghai chapter event, evening dinner setting",
+      "Michael L. Hauge delivering a keynote at an Entrepreneurs' Organization chapter event",
     label: "Keynote",
-    context: "EO Shanghai",
+    context: "Entrepreneurs' Organization",
   },
   {
     src: "/images/gallery/peer-network-evening.jpg",
