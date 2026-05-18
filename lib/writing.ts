@@ -9,6 +9,7 @@ export interface WritingFrontmatter {
   date: string;
   excerpt?: string;
   tags?: string[];
+  draft?: boolean;
 }
 
 export interface WritingMeta extends WritingFrontmatter {
@@ -45,6 +46,7 @@ function parseFrontmatter(raw: string): {
       date: data.date ?? new Date().toISOString().slice(0, 10),
       excerpt: data.excerpt,
       tags: data.tags,
+      draft: data.draft === true,
     },
     content: parsed.content,
   };
@@ -56,6 +58,7 @@ export function getAllWriting(): WritingMeta[] {
       const { data } = parseFrontmatter(raw);
       return { slug, ...data };
     })
+    .filter((post) => !post.draft)
     .sort((a, b) => (a.date < b.date ? 1 : -1));
 }
 
@@ -67,6 +70,7 @@ export async function getWritingBySlug(slug: string): Promise<Writing | null> {
   const file = readAllFiles().find((f) => f.slug === slug);
   if (!file) return null;
   const { data, content } = parseFrontmatter(file.raw);
+  if (data.draft) return null;
   const processed = await remark().use(html).process(content);
   return {
     slug,
@@ -76,5 +80,8 @@ export async function getWritingBySlug(slug: string): Promise<Writing | null> {
 }
 
 export function getAllWritingSlugs(): string[] {
-  return readAllFiles().map((f) => f.slug);
+  return readAllFiles()
+    .map(({ slug, raw }) => ({ slug, data: parseFrontmatter(raw).data }))
+    .filter(({ data }) => !data.draft)
+    .map(({ slug }) => slug);
 }
