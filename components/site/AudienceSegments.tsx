@@ -87,7 +87,11 @@ const segments: Segment[] = [
 ];
 
 export function AudienceSegments() {
-  const [activeId, setActiveId] = useState(segments[0].id);
+  // Default to "Enterprise" — most warm-referral buyers arrive looking for
+  // training and credibility proof first. Family business remains the sweet
+  // spot for capital but is rarely the first frame for new visitors.
+  const defaultId = segments.find((s) => s.id === "enterprise")?.id ?? segments[0].id;
+  const [activeId, setActiveId] = useState(defaultId);
   const active = segments.find((s) => s.id === activeId) ?? segments[0];
 
   return (

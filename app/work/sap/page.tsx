@@ -149,7 +149,32 @@ export default function SAPCaseStudyPage() {
         </div>
       </section>
 
-      <section>
+      <section className="border-b border-border bg-subtle" data-print-hide>
+        <div className="mx-auto max-w-4xl px-6 py-16 sm:py-20">
+          <p className="mb-3 text-sm font-medium uppercase tracking-widest text-muted">
+            One-pager
+          </p>
+          <h2 className="text-balance">Forwardable summary for your team.</h2>
+          <p className="mt-4 max-w-2xl text-base text-muted">
+            A single-page exec summary of this engagement &mdash; stats,
+            narrative, three quotes &mdash; designed to be forwarded to your
+            CHRO, board, or L&amp;D lead without losing context.
+          </p>
+          <div className="mt-8">
+            <a
+              href="/artifacts/sap-case-study-summary.pdf"
+              className="group inline-flex items-center gap-2 rounded-full border border-border bg-background px-6 py-3 text-sm font-medium text-foreground transition-colors hover:bg-background/80"
+            >
+              Download one-page summary (PDF)
+              <span aria-hidden className="transition-transform group-hover:translate-x-0.5">
+                ↓
+              </span>
+            </a>
+          </div>
+        </div>
+      </section>
+
+      <section data-print-hide>
         <div className="mx-auto max-w-4xl px-6 py-20 sm:py-24">
           <Link
             href="/#work"

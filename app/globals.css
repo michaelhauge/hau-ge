@@ -71,3 +71,85 @@
     color: var(--color-background);
   }
 }
+
+@media print {
+  /* Hide chrome that doesn't belong on a printout */
+  header,
+  footer,
+  nav,
+  [data-print-hide] {
+    display: none !important;
+  }
+
+  /* Tighten margins and force light background */
+  html,
+  body {
+    background: #ffffff !important;
+    color: #000000 !important;
+    font-size: 11pt;
+    line-height: 1.45;
+  }
+
+  main {
+    padding: 0 !important;
+  }
+
+  /* Strip section dividers and decorative backgrounds */
+  section {
+    border: none !important;
+    background: transparent !important;
+    page-break-inside: avoid;
+  }
+
+  section > div {
+    padding-top: 0.75rem !important;
+    padding-bottom: 0.75rem !important;
+    max-width: 100% !important;
+  }
+
+  /* Headings tightened for print */
+  h1 {
+    font-size: 22pt;
+    margin-top: 0;
+  }
+
+  h2 {
+    font-size: 16pt;
+    page-break-after: avoid;
+  }
+
+  h3 {
+    font-size: 12pt;
+    page-break-after: avoid;
+  }
+
+  /* Show full URL after every external link so printed copy is reference-able */
+  a[href^="http"]::after {
+    content: " (" attr(href) ")";
+    font-size: 9pt;
+    color: #555;
+    word-break: break-all;
+  }
+
+  /* Don't print background-only call-out boxes as filled blocks */
+  .bg-subtle,
+  .bg-foreground {
+    background: transparent !important;
+    color: #000000 !important;
+    border: 1px solid #cccccc !important;
+  }
+
+  /* Never break a quote, stat, or list mid-paragraph */
+  blockquote,
+  li,
+  p {
+    page-break-inside: avoid;
+    orphans: 3;
+    widows: 3;
+  }
+
+  /* Hide hover-only affordances */
+  [aria-hidden="true"] {
+    display: none !important;
+  }
+}
