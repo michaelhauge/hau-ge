@@ -61,4 +61,4 @@ public/                   # Headshot, brand wordmarks, artifact thumbnails
 
 ## Contact
 
-[michael@hau.ge](mailto:michael@hau.ge) · [LinkedIn](https://linkedin.com/in/michaelhauge)
+[michael@pertamapartners.com](mailto:michael@pertamapartners.com) · [LinkedIn](https://linkedin.com/in/michaelhauge)
