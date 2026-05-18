@@ -6,6 +6,13 @@ const clients: Array<{ name: string; domain: string; href?: string }> = [
   { name: "SAP", domain: "sap.com" },
   { name: "Unilever", domain: "unilever.com" },
   { name: "Honeywell", domain: "honeywell.com" },
+  { name: "Medtronic", domain: "medtronic.com" },
+  { name: "Duke Kunshan University", domain: "dukekunshan.edu.cn" },
+  { name: "East China University of Political Science and Law", domain: "ecupl.edu.cn" },
+  { name: "China International Travel Service", domain: "cits.com.cn" },
+  { name: "China Campus Network", domain: "chinacampusnet.com" },
+  { name: "Entrepreneurs' Organization", domain: "eonetwork.org" },
+  { name: "Flow Research Collective", domain: "flowresearchcollective.com" },
   { name: "Center for Creative Leadership", domain: "ccl.org" },
   { name: "EY", domain: "ey.com" },
 ];
