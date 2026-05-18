@@ -6,7 +6,9 @@
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "lint": "eslint"
+    "lint": "eslint",
+    "new-post": "./scripts/new-post.sh",
+    "publish-post": "./scripts/publish-post.sh"
   },
   "dependencies": {
     "gray-matter": "^4.0.3",
