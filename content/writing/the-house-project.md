@@ -17,17 +17,15 @@ Just making an observation.
 
 So imagine my surprise when Mrs. Zanni said, as we pushed our chairs in one day to go home, *"I'm looking forward to seeing all of your beautiful houses tomorrow."* My jaw dropped but I quickly looked away as I headed for the Dismissal line so no one could see my shocked expression. I had completely forgotten about the House Project until that very moment. Not really surprising for an urchin like me who prided himself in memorizing all the homework, page assignments, and problem numbers.
 
-Mrs. Zanni was my favorite teacher in third grade. Short silver hair, pointed-ish nose, energetic frame, and always with warm smiles and hugs, I loved every moment of her classes. As a third-grader, I had a churlish reputation for being a bit of a know-it-all, pretending to sulk when bored in class. Looking back, her patience with me was noteworthy. Every assignment I can remember now, she made sure to include a special challenge for me or hold me back to ask me for something extra on the assignment that made me feel… special. She made me know that she cared. I felt understood.
+Mrs. Zanni was my favorite teacher in third grade. As a churlish know-it-all who'd pretend to sulk when bored, I was a handful, and her patience with me was noteworthy. She'd hold me back after assignments to ask for something extra in a way that made me feel understood.
 
 All of that changed the day I lied to Mrs. Zanni.
 
 ## The shoebox
 
-The day that the House Project was due, I came into school with the worst one of them all. I looked around the room and nearly started to cry. To my left a classmate had built a castle out of legos that even included walls with goddamn crenellations. Someone had helped this classmate, known to all of us as woefully unartistic, spray paint the entire castle silver, except for a meticulously-painted family crest on the (working) drawbridge. You're joking me.
+The day the House Project was due, I came into school with the worst one of them all. To my left, a classmate (woefully unartistic, known to all of us as such) had a Lego castle spray-painted silver with crenellated walls and a meticulously-painted family crest on a working drawbridge. To my right, a more humble but still remarkable thatched roof cottage made with real straw to mimic *The Sound of Music*.
 
-To my right was a more humble structure I dare say was actually fashioned by the student herself. It was still remarkable — a thatched roof cottage made with real straw to mimic the Austrian countryside in *The Sound of Music*.
-
-And there was mine: a weathered shoebox taped cravenly upright on a flimsy piece of posterboard. One color unmistakable from the other — both formerly white but now a pallid gray due to years in a closet. There were two rectangular-ish holes cut out — one to be the door of the house and another the window. Rectangular-ish in the sense that no two lines were truly parallel, though they made their best efforts to be when looked at from a side angle. One lonely matchbox car stood outside the house, hastily glued to the posterboard. One circular section, hastily measured, was colored with gray marker to resemble macadam. The rest of the board was scribbled with green marker, which at the time I apparently thought made for convincing grass.
+And then mine: a weathered shoebox taped cravenly upright on a flimsy piece of posterboard, both formerly white but now pallid gray from years in a closet. Two rectangular-ish holes for door and window. One lonely matchbox car hastily glued to the posterboard. A circular patch of gray marker for macadam. Green scribbles for grass.
 
 The house was that of Professor Potts's, the protagonist in *Chitty Chitty Bang Bang*, by Sir Ian Fleming, who is perhaps more famously known for his creation of James Bond.
 

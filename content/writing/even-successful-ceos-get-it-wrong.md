@@ -18,3 +18,5 @@ Sam Altman didn't see GPT-4's coding capability until weeks before launch. Adam 
 The vast majority of businesses fail. If they don't fail, founders and CEOs still get it wrong all the time.
 
 No one, including the founder or CEO, can see everything. Often the greatest ideas come from within or outside the company, but not from between the ears of the founder.
+
+The one you don't see yet is the one that will define your next decade.

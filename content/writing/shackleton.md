@@ -15,7 +15,7 @@ He rescued every single man. The only casualties were the dogs originally aboard
 
 The conditions could not have been more miserable. Nearly starving to death multiple times, the men were spared by hunting penguins and sea leopards. At times, many nearly froze to death in the frigid waters and the icy winds. The U.S. Navy's *Sailing Direction for Antarctica* writes about the winds these men traversed in the Drake Passage: *"...often of hurricane intensity and with gust velocities sometimes attaining to 150 to 200 miles per hour. Winds of such violence are not known elsewhere, save perhaps within a tropical cyclone."*
 
-Multiple times, they were dehydrated, not drinking for days. Sailing across waters among icebergs, a single lapse of concentration could have spelled out certain death. Charles Darwin wrote about these same treacherous straits: *"The sight... is enough to make a landsman dream for a week about death, peril, and shipwreck."*
+Multiple times, they were dehydrated, not drinking for days. Sailing across waters among icebergs, a single lapse of concentration could have spelled out certain death.
 
 While the story is one of heroism and leadership, for sure, it is also one of intense fortitude and commitment to teamwork. Throughout the nearly two years adrift, the band of merry men shared moments of bliss and of heartbreak. An intense bond was no doubt forged between them, but that doesn't mean it was perfect. Being 'held captive' voluntarily aboard a ship in close quarters, within tents, and finally within a ramshackle lodge that reeked of seal blubber and penguin guano, there was a considerable amount of friction between the men.
 

@@ -5,11 +5,9 @@ excerpt: "Career advice usually splits between 'follow your passion' and 'build 
 tags: ["career", "leadership", "advice"]
 ---
 
-This week someone asked me what I share with people who ask for career advice. I haven't had a very long, steady, or successful career, so I'm not quite sure I'm the best person to ask. I also really struggle giving generic advice because I don't know the idiosyncrasies of everyone's life and circumstances. But if my general response can help anyone, I'm happy to share.
+Most career advice splits between "follow your passion" and "build unique skills." I think the better question is hiding between those two.
 
-Most people will either tell you to 'follow your passion' and just go do that. Or to 'build a unique set of skills' and go do that. I think the path for most people probably lies somewhere in between those two extremes of pure passion and pure practicality.
-
-Perhaps a better question is: **"What questions and problems fascinate you so much that you could spend a large portion of your life looking for the answer and be excited to do that?"**
+**"What questions and problems fascinate you so much that you could spend a large portion of your life looking for the answer and be excited to do that?"**
 
 Some people want to become 'generalists.' Some people want to become 'experts.' While I think those are both outcomes, I'm unsure if the generalist or expert label is the goal itself. I think both of them come from excitedly peeling away layers of a topic or topics you enjoy learning about, resolving problems you enjoy untangling, and helping those you enjoy supporting.
 

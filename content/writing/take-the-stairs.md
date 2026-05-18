@@ -13,6 +13,8 @@ This week when they asked me why they couldn't go to Elite originally, I shared 
 
 In my own experience, the sweetest victories and proudest moments haven't come from anything that was given to me, but something I worked hard to achieve. I'm speaking of anything worthwhile, not merely trophies or accolades or 'success,' however you want to define it. I have a feeling many reading this have a similar set of experiences.
 
+I took the stairs starting LearningLeaders in my late twenties when peers were taking IPO elevators. Slower, but the climb compounded differently.
+
 **The value of something is what we are willing to sacrifice to get it.**
 
 Step by step the puzzle pieces are put into place. Rarely does it happen that the puzzle pieces are shaken out on the floor and they are all magically arranged perfectly and linked together. You have to link them together, piece by piece. It takes time.

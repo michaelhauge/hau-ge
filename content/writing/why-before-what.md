@@ -7,7 +7,7 @@ tags: ["leadership", "communication", "context"]
 
 Franklin Roosevelt, a former President of the United States, was a precocious young man. He devoured books whenever he had the opportunity and made it a personal mission to accomplish whatever he could academically. In 2nd grade, he recalled reading the dictionary, but couldn't recall any of the words he learned from that particular book.
 
-I have a sneaking suspicion that some of our own LL Partners were just as precocious as Mr. Roosevelt at a young age and took it upon themselves to read the dictionary as well. So why don't we remember everything that we read?
+I have a sneaking suspicion most of us tried something similar as kids. So why don't we remember everything that we read?
 
 **Without context, nothing sticks.**
 
