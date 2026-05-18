@@ -6,6 +6,7 @@ import { SelectedEngagements } from "@/components/site/SelectedEngagements";
 import { TrainingGallery } from "@/components/site/TrainingGallery";
 import { EngagementShapes } from "@/components/site/EngagementShapes";
 import { MeasurementMethodology } from "@/components/site/MeasurementMethodology";
+import { RecentThinking } from "@/components/site/RecentThinking";
 import { PressStrip } from "@/components/site/PressStrip";
 import { HowIWork } from "@/components/site/HowIWork";
 import { About } from "@/components/site/About";
@@ -22,6 +23,7 @@ export default function Home() {
       <TrainingGallery />
       <EngagementShapes />
       <MeasurementMethodology />
+      <RecentThinking />
       <PressStrip />
       <HowIWork />
       <About />

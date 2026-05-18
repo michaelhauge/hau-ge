@@ -70,6 +70,94 @@
     background: var(--color-foreground);
     color: var(--color-background);
   }
+
+  /* Article body styling for /writing/[slug] */
+  .prose-writing {
+    font-size: 1.0625rem;
+    line-height: 1.75;
+  }
+
+  .prose-writing p {
+    margin-top: 1.25em;
+    margin-bottom: 1.25em;
+    color: var(--color-foreground);
+  }
+
+  .prose-writing h2 {
+    margin-top: 2.5em;
+    margin-bottom: 0.75em;
+    font-size: 1.5rem;
+  }
+
+  .prose-writing h3 {
+    margin-top: 2em;
+    margin-bottom: 0.5em;
+    font-size: 1.25rem;
+  }
+
+  .prose-writing ul,
+  .prose-writing ol {
+    margin-top: 1.25em;
+    margin-bottom: 1.25em;
+    padding-left: 1.5em;
+  }
+
+  .prose-writing ul {
+    list-style: disc;
+  }
+
+  .prose-writing ol {
+    list-style: decimal;
+  }
+
+  .prose-writing li {
+    margin-top: 0.5em;
+    margin-bottom: 0.5em;
+  }
+
+  .prose-writing a {
+    color: var(--color-foreground);
+    text-decoration: underline;
+    text-underline-offset: 3px;
+  }
+
+  .prose-writing a:hover {
+    color: var(--color-muted);
+  }
+
+  .prose-writing blockquote {
+    margin: 1.5em 0;
+    padding-left: 1.25rem;
+    border-left: 2px solid var(--color-foreground);
+    font-style: italic;
+    color: var(--color-foreground);
+  }
+
+  .prose-writing strong {
+    font-weight: 600;
+    color: var(--color-foreground);
+  }
+
+  .prose-writing code {
+    background: var(--color-subtle);
+    padding: 0.1em 0.3em;
+    border-radius: 3px;
+    font-family: var(--font-mono), ui-monospace, monospace;
+    font-size: 0.95em;
+  }
+
+  .prose-writing pre {
+    background: var(--color-subtle);
+    padding: 1rem;
+    border-radius: 6px;
+    overflow-x: auto;
+    margin: 1.5em 0;
+  }
+
+  .prose-writing pre code {
+    background: transparent;
+    padding: 0;
+  }
 }
 
 @media print {

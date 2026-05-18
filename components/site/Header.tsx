@@ -13,6 +13,9 @@ export function Header() {
             <a href="/#engagements" className="transition-colors hover:text-foreground">
               Engagements
             </a>
+            <a href="/writing" className="transition-colors hover:text-foreground">
+              Writing
+            </a>
             <a
               href="https://pertamaventures.com/portfolio"
               target="_blank"
