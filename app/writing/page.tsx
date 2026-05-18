@@ -32,6 +32,18 @@ export default function WritingIndexPage() {
           ships, family-business operations, the operators I want to back.
         </p>
 
+        <div className="mt-8 max-w-2xl rounded-md border border-border bg-subtle p-5 text-sm text-muted">
+          <p>
+            <span className="font-semibold uppercase tracking-widest text-foreground">
+              A note:
+            </span>{" "}
+            This site went live in 2026, but I&rsquo;m in the process of
+            uploading essays and notes from across my career. They will appear
+            here gradually as I work through the archive, so the list will keep
+            growing over the coming weeks and months.
+          </p>
+        </div>
+
         {posts.length === 0 ? (
           <p className="mt-16 text-base text-muted">
             Nothing published yet. Check back soon.
