@@ -20,6 +20,15 @@ const engagements: Engagement[] = [
       "Open-enrollment intensive for company founders and senior executives on deploying Claude Code in real organizations. Strong cross-sector cohort, working sessions on adoption playbooks, environment setup, and team-ready workflows.",
   },
   {
+    id: "executive-team-training-2026-04",
+    date: "April 2026",
+    buyerTitle: "Executive team training",
+    buyerContext: "15 participants",
+    engagement: "Half-day executive AI training",
+    outcome:
+      "Within four hours, the team generated over 20 specific workflows that could be reshaped by AI-enabled solutions and meaningful cost savings. The session moved from concept to a working backlog of operational priorities the leadership team could begin acting on the same week.",
+  },
+  {
     id: "sap-learning-leadership",
     date: "2019 – 2020",
     buyerTitle: "Learning Leadership, SAP China",
