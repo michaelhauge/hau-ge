@@ -30,6 +30,12 @@ export default function sitemap(): MetadataRoute.Sitemap {
       changeFrequency: "weekly",
       priority: 0.8,
     },
+    {
+      url: `${BASE_URL}/faq`,
+      lastModified,
+      changeFrequency: "monthly",
+      priority: 0.6,
+    },
   ];
   const writing: MetadataRoute.Sitemap = getAllWriting().map((post) => ({
     url: `${BASE_URL}/writing/${post.slug}`,

@@ -61,6 +61,12 @@ export function About() {
               (youth communication and leadership development).
             </p>
             <p>
+              The reason for four entities: training generates the operator
+              insight, capital backs the operators who put it to work, and
+              every leg sharpens the others. It compounds because it&rsquo;s
+              the same conviction expressed three different ways.
+            </p>
+            <p>
               Most AI work I see falls into two camps: pundits who talk about
               the future, and engineers who ship features. I sit in a third
               place: a practitioner who runs the workflows, designs the
@@ -105,6 +111,48 @@ export function About() {
               Pertama Ventures portfolio when the right intro speeds things
               up.
             </p>
+            <p>
+              One thing worth saying out loud: training engagements never
+              trigger investment outreach unless you ask. The legs reinforce
+              each other intellectually, not commercially.
+            </p>
+
+            <div className="mt-8 border-t border-border pt-8">
+              <p className="mb-4 text-xs font-medium uppercase tracking-widest text-muted">
+                Credentials &amp; affiliations
+              </p>
+              <dl className="grid grid-cols-1 gap-4 text-sm sm:grid-cols-2">
+                <div>
+                  <dt className="text-muted">Education</dt>
+                  <dd className="mt-0.5 text-foreground">
+                    Deerfield Academy (Alumni Award recipient) · [TO CONFIRM
+                    — university]
+                  </dd>
+                </div>
+                <div>
+                  <dt className="text-muted">Languages</dt>
+                  <dd className="mt-0.5 text-foreground">
+                    English (native) · Mandarin (working professional)
+                  </dd>
+                </div>
+                <div>
+                  <dt className="text-muted">Based</dt>
+                  <dd className="mt-0.5 text-foreground">
+                    Kuala Lumpur, Malaysia
+                  </dd>
+                </div>
+                <div>
+                  <dt className="text-muted">Memberships</dt>
+                  <dd className="mt-0.5 text-foreground">
+                    Entrepreneurs&rsquo; Organization · [TO CONFIRM &mdash;
+                    YPO, Pacific Council, others]
+                  </dd>
+                </div>
+              </dl>
+              <p className="mt-4 text-xs text-muted">
+                A fuller bio is available on request.
+              </p>
+            </div>
           </div>
         </div>
       </div>

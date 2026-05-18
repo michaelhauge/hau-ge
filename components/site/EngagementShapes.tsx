@@ -73,15 +73,27 @@ export function EngagementShapes() {
           ))}
         </div>
 
-        <div className="mt-16 max-w-2xl rounded-lg border border-border bg-background p-5">
-          <p className="text-xs font-medium uppercase tracking-widest text-muted">
-            On rates
-          </p>
-          <p className="mt-2 text-sm text-foreground">
-            Michael&rsquo;s day rates are in line with professional advisory
-            contracts in the Southeast Asia region. Multi-day, retained, and
-            multi-cohort engagements scoped on request.
-          </p>
+        <div className="mt-16 grid grid-cols-1 gap-6 sm:grid-cols-2">
+          <div className="rounded-lg border border-border bg-background p-5">
+            <p className="text-xs font-medium uppercase tracking-widest text-muted">
+              On rates
+            </p>
+            <p className="mt-2 text-sm text-foreground">
+              Michael&rsquo;s day rates are in line with professional
+              advisory contracts in the Southeast Asia region. Multi-day,
+              retained, and multi-cohort engagements scoped on request.
+            </p>
+          </div>
+          <div className="rounded-lg border border-border bg-background p-5">
+            <p className="text-xs font-medium uppercase tracking-widest text-muted">
+              On outcomes
+            </p>
+            <p className="mt-2 text-sm text-foreground">
+              Kirkpatrick L3 and L4 targets are agreed in writing at kickoff.
+              If we don&rsquo;t hit them, the next quarter&rsquo;s retainer
+              is on the table. The job is to land outcomes, not bill hours.
+            </p>
+          </div>
         </div>
       </div>
     </section>

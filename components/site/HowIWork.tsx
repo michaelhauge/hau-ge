@@ -43,8 +43,14 @@ export function HowIWork() {
             </sup>
           </p>
           <h2 className="text-balance">
-            Four principles behind every engagement.
+            A practitioner, not a consultancy.
           </h2>
+          <p className="mt-4 text-base text-muted">
+            The alternative to me is one of the big AI consultancies. They
+            ship decks, slide-team rosters, and account managers. I ship the
+            workflow with you, in your tools, alongside the people who will
+            own it after I leave. Four principles guide the work.
+          </p>
         </div>
 
         <div className="grid grid-cols-1 gap-12 md:grid-cols-2">
