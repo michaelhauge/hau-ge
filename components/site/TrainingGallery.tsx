@@ -31,15 +31,8 @@ const photos: Photo[] = [
     src: "/images/gallery/sap-china-cohort-group.jpg",
     alt:
       "Michael L. Hauge with a participant cohort at SAP's China office, in front of the SAP wordmark",
-    label: "Cohort group photo",
+    label: "Multi-site executive program",
     context: "SAP China",
-  },
-  {
-    src: "/images/gallery/workshop-modern-room.jpg",
-    alt:
-      "Michael L. Hauge leading an executive workshop session",
-    label: "Executive workshop",
-    context: "Recent engagement",
   },
   {
     src: "/images/gallery/eo-shanghai-keynote.jpg",
@@ -51,18 +44,16 @@ const photos: Photo[] = [
   {
     src: "/images/gallery/peer-network-evening.jpg",
     alt:
-      "Michael L. Hauge in conversation at an evening peer-network gathering",
-    label: "Peer-network event",
-    // TODO: replace with specific event name once confirmed (e.g. "EO Global retreat" / "YPO Forum")
-    context: "Founder peer network",
+      "Michael L. Hauge speaking at a non-profit fundraising dinner",
+    label: "Speaker",
+    context: "Non-profit fundraising dinner",
   },
   {
     src: "/images/gallery/fireside-chat-wide.jpg",
     alt:
-      "Michael L. Hauge in a moderated fireside chat on a conference main stage, with his portrait projected on the screen behind",
+      "Michael L. Hauge in a moderated fireside chat at Deerfield Academy after receiving an Alumni Award",
     label: "Fireside chat",
-    // TODO: replace with specific event/host once confirmed
-    context: "Conference main stage",
+    context: "Deerfield Academy · Alumni Award recipient",
   },
   {
     src: "/images/gallery/cctv-the-founder-interview.jpg",
