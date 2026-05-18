@@ -93,13 +93,13 @@ export default function FAQPage() {
         </h1>
         <p className="mt-6 max-w-2xl text-lg text-muted">
           The questions enterprise L&amp;D and procurement teams usually send
-          via email, answered up front. If something&rsquo;s missing, ask
-          directly via the{" "}
+          via email, answered up front. If something&rsquo;s missing, email
+          me directly via the{" "}
           <Link
             href="/contact"
             className="font-medium text-foreground underline underline-offset-4 hover:text-muted"
           >
-            contact form
+            contact page
           </Link>
           .
         </p>
