@@ -5,7 +5,7 @@ const engagements: Engagement[] = [
     id: "dream-team-group-2026-05",
     date: "May 2026",
     buyerTitle: "Dream Team Group",
-    buyerContext: "Named client",
+    buyerContext: "Reference Client",
     engagement: "Claude Power User Workshop",
     outcome:
       "Hands-on session for the leadership team to move past basic prompting into production-grade Claude use. Real workflows, evaluation rituals, and the prompt patterns the team would carry forward.",
