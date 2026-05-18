@@ -14,11 +14,6 @@ interface QA {
 
 const procurement: QA[] = [
   {
-    question: "What are standard payment terms?",
-    answer:
-      "30 days net from invoice date. 50% on engagement kickoff, 50% on the agreed midpoint or quarterly cadence for longer programs. Custom terms negotiable for first engagements.",
-  },
-  {
     question: "Do you provide an MSA / SOW template?",
     answer:
       "Yes. A standard MSA + SOW pair is available on request before any signed engagement. We're also happy to work under your organisation's MSA if you have a preferred form.",
