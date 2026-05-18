@@ -4,6 +4,7 @@ import { AudienceSegments } from "@/components/site/AudienceSegments";
 import { FeaturedArtifacts } from "@/components/site/FeaturedArtifacts";
 import { SelectedEngagements } from "@/components/site/SelectedEngagements";
 import { EngagementShapes } from "@/components/site/EngagementShapes";
+import { MeasurementMethodology } from "@/components/site/MeasurementMethodology";
 import { PressStrip } from "@/components/site/PressStrip";
 import { HowIWork } from "@/components/site/HowIWork";
 import { About } from "@/components/site/About";
@@ -18,6 +19,7 @@ export default function Home() {
       <FeaturedArtifacts />
       <SelectedEngagements />
       <EngagementShapes />
+      <MeasurementMethodology />
       <PressStrip />
       <HowIWork />
       <About />

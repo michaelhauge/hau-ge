@@ -52,7 +52,7 @@ export function EngagementShapes() {
           </h2>
           <p className="mt-4 text-base text-muted">
             Every engagement is scoped to the team and the moment, but most
-            of the work falls into one of these patterns. Pricing on request.
+            of the work falls into one of these patterns.
           </p>
         </div>
 
@@ -71,6 +71,17 @@ export function EngagementShapes() {
               </div>
             </div>
           ))}
+        </div>
+
+        <div className="mt-16 max-w-2xl rounded-lg border border-border bg-background p-5">
+          <p className="text-xs font-medium uppercase tracking-widest text-muted">
+            On rates
+          </p>
+          <p className="mt-2 text-sm text-foreground">
+            Michael&rsquo;s day rates are in line with professional advisory
+            contracts in the Southeast Asia region. Multi-day, retained, and
+            multi-cohort engagements scoped on request.
+          </p>
         </div>
       </div>
     </section>
