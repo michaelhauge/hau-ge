@@ -1,7 +1,7 @@
 ---
 title: "Training and Capital Don't Mix"
 date: "2026-03-18"
-excerpt: "On the deliberate discipline of keeping the two legs of Pertama separate, and why sophisticated buyers can sniff out a sales pretext within the first hour."
+excerpt: "On the discipline that keeps the two legs of Pertama from sharing a commercial sales motion — and what actually happens when training clients become investment conversations later."
 tags: ["leadership", "values", "pertama"]
 ---
 
@@ -17,7 +17,11 @@ Here's the asymmetry. The CEO sitting across from me in a training engagement is
 
 Both are now possible. The trust I needed to do the training work is gone.
 
-So the rule, written plainly: **training engagements never trigger investment outreach.** The CEO can come to me. They almost always do, in time. But the motion has to start on their side, and a respectable interval has to pass.
+So the rule, written plainly: **I do not initiate investment conversations with an active or recently completed training client.** The motion has to start on their side, and a respectable interval has to pass.
+
+Does this mean training and capital clients never overlap? No. Some of the operators I have most enjoyed working with on training engagements have, months or years later, become investment conversations. That is fine, and arguably the most natural way for a serious capital relationship to begin. The CEO has seen me work inside their business. I have seen how they make decisions. Both of us know what we are signing up for.
+
+The discipline is about who initiates, when, and how. Not about whether the same name can appear on both sides of the ledger in time. Done properly, the training relationship earns the right to a different conversation later, but it is the client who decides whether and when to open it.
 
 This is not a polite fiction. It is the operating discipline that makes both halves of the business possible. Training without it becomes a sales pretext. Capital without it loses the deal flow that comes from being trusted, then asked.
 
