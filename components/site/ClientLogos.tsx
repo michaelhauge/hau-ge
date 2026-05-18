@@ -22,7 +22,7 @@ export function ClientLogos() {
     <section className="border-b border-border">
       <div className="mx-auto max-w-6xl px-6 py-16 sm:py-20">
         <p className="text-center text-xs font-medium uppercase tracking-widest text-muted">
-          My teams and I have designed and delivered trainings for executives at
+          Trainings, lectures, and keynotes delivered at
         </p>
         <ul className="mt-12 flex flex-wrap items-center justify-center gap-x-16 gap-y-12 sm:gap-x-20">
           {clients.map((c) => (
