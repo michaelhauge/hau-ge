@@ -1,7 +1,6 @@
 ---
 title: "Why Before What"
 date: "2019-05-15"
-draft: true
 excerpt: "FDR read the dictionary in second grade and remembered none of it. Without context, nothing sticks. On why the 'what' is now commoditized and the 'why' is where leadership actually lives."
 tags: ["leadership", "communication", "context"]
 ---
