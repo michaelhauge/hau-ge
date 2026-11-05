@@ -8,7 +8,10 @@
     "start": "next start",
     "lint": "eslint",
     "new-post": "./scripts/new-post.sh",
-    "publish-post": "./scripts/publish-post.sh"
+    "publish-post": "./scripts/publish-post.sh",
+    "learn": "tsx learn/cli.ts",
+    "learn:test": "tsx --test \"learn/test/*.test.ts\"",
+    "learn:typecheck": "tsc -p learn/tsconfig.json"
   },
   "dependencies": {
     "gray-matter": "^4.0.3",
@@ -19,13 +22,19 @@
     "remark-html": "^16.0.1"
   },
   "devDependencies": {
+    "@anthropic-ai/sdk": "^1.5.0",
+    "@modelcontextprotocol/sdk": "^1.32.2",
     "@tailwindcss/postcss": "^4",
     "@types/node": "^20",
     "@types/react": "^19",
     "@types/react-dom": "^19",
     "eslint": "^9",
     "eslint-config-next": "16.1.2",
+    "rss-parser": "^3.13.0",
     "tailwindcss": "^4",
-    "typescript": "^5"
+    "ts-fsrs": "^5.4.2",
+    "tsx": "^4.23.15",
+    "typescript": "^5",
+    "zod": "^4.6.7"
   }
 }

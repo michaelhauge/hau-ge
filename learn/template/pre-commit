@@ -1,0 +1,9 @@
+#!/bin/sh
+# Validates notes before each commit. Installed by `npm run learn -- init`.
+# Skip once with: git commit --no-verify
+HAU_GE_DIR="${HAU_GE_DIR:-{{HAU_GE_DIR}}}"
+if [ ! -d "$HAU_GE_DIR/learn" ]; then
+  echo "learn pre-commit: $HAU_GE_DIR/learn not found, skipping note check" >&2
+  exit 0
+fi
+LEARN_HOME="$(git rev-parse --show-toplevel)" npm --prefix "$HAU_GE_DIR" run -s learn -- check

@@ -1,0 +1,67 @@
+# Daily frontier digest. Installed by `npm run learn -- init` from hau-ge/learn/template/digest.yml.
+#
+# Needs, in this repo's Settings → Secrets and variables → Actions:
+#   secret   ANTHROPIC_API_KEY   (required)
+#   variable HAU_GE_REF          (optional) hau-ge branch with learn/ on it; defaults to main
+name: frontier-digest
+
+on:
+  schedule:
+    - cron: "17 22 * * *" # 06:17 in Kuala Lumpur (UTC+8)
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: frontier-digest
+  cancel-in-progress: false
+
+jobs:
+  digest:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          path: learn-home
+
+      - uses: actions/checkout@v4
+        with:
+          repository: michaelhauge/hau-ge
+          ref: ${{ vars.HAU_GE_REF || 'main' }}
+          path: hau-ge
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+          cache: npm
+          cache-dependency-path: hau-ge/package-lock.json
+
+      - name: Install
+        working-directory: hau-ge
+        run: npm ci --no-audit --no-fund
+
+      - name: Build digest
+        working-directory: hau-ge
+        env:
+          LEARN_HOME: ${{ github.workspace }}/learn-home
+          LEARN_COST_LEDGER: costs.digest.jsonl
+          LEARN_DAILY_COST_CEILING_USD: ${{ vars.LEARN_DAILY_COST_CEILING_USD || '5' }}
+          ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
+        run: npm run -s learn -- digest
+
+      - name: Commit digest
+        working-directory: learn-home
+        run: |
+          git config user.name "learn-digest"
+          git config user.email "learn-digest@users.noreply.github.com"
+          for p in frontier costs.digest.jsonl; do
+            if [ -e "$p" ]; then git add "$p"; fi
+          done
+          if git diff --cached --quiet; then
+            echo "Nothing new."
+          else
+            git commit -m "frontier: $(date -u +%F)"
+            git push
+          fi
