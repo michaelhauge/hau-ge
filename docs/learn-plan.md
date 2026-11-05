@@ -2,6 +2,8 @@
 
 > Personal AI learning system for Michael L. Hauge — capture, synthesis, retention, and Pertama-Partners-specific application over a 12+ month horizon.
 >
+> **Build status:** the CLI exists as work in progress (commit `8880b8b`); the stage-by-stage work plan is `docs/learn-workstream.md`.
+>
 > **Revision 2 — 2026-11-05.** Rewritten around a thin first slice. The original 2026-06-10 plan (six phases, infrastructure first) is preserved in git at commit `6dd9fb5`; the reasons for the rewrite are in §1 and in `docs/session-2026-11-05-learn-revisit.md`.
 
 ---
