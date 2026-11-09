@@ -1,18 +1,20 @@
+import Link from "next/link";
+
 export function Header() {
   return (
     <header className="border-b border-border">
       <div className="mx-auto flex max-w-6xl items-center justify-between px-6 py-5">
-        <a href="/" className="text-base font-semibold tracking-tight">
+        <Link href="/" className="text-base font-semibold tracking-tight">
           Michael L. Hauge
-        </a>
+        </Link>
         <nav className="flex items-center gap-8">
           <div className="hidden items-center gap-8 text-sm text-muted sm:flex">
-            <a href="/writing" className="transition-colors hover:text-foreground">
+            <Link href="/writing" className="transition-colors hover:text-foreground">
               Writing
-            </a>
-            <a href="/#about" className="transition-colors hover:text-foreground">
+            </Link>
+            <Link href="/#about" className="transition-colors hover:text-foreground">
               About
-            </a>
+            </Link>
           </div>
           <a
             href="/contact"
