@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <base href="/shanghai/" />
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
+    <meta name="color-scheme" content="dark" />
+    <title>Shanghai — private atlas</title>
+    <link rel="icon" href="./favicon.svg" type="image/svg+xml" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@400&family=IBM+Plex+Sans:wght@400;500;600&family=IBM+Plex+Mono:wght@400;500&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./vendor/maplibre-gl.css" />
+    <link rel="stylesheet" href="./app.css?v=guide-refresh-1" />
+  </head>
+  <body>
+    <div id="map" role="application" aria-label="Shanghai recommendations map"></div>
+    <div class="vignette" aria-hidden="true"></div>
+    <div id="map-status" class="map-status" data-state="loading" role="status" aria-live="polite">
+      <div class="map-status-card">
+        <p class="map-status-title" id="map-status-title">Loading the map…</p>
+        <p class="map-status-detail" id="map-status-detail">Fetching streets and buildings for Shanghai.</p>
+        <button type="button" id="map-status-retry" class="map-status-retry" hidden>Try again</button>
+      </div>
+    </div>
+
+    <aside class="sidebar" id="sidebar" data-mobile-view="map" data-sheet="peek" aria-label="Explore Shanghai">
+      <div class="sheet-controls"><button type="button" id="sheet-size" aria-label="Expand browsing panel">Expand <span aria-hidden="true">⌃</span></button><span id="sheet-title">Explore Shanghai</span><button type="button" id="sheet-collapse" aria-label="Collapse browsing panel">⌄</button></div>
+      <header class="brand">
+        <p class="eyebrow">Private atlas</p>
+        <h1>Shanghai</h1>
+        <p class="lede" id="lede">Loading recommendations…</p>
+      </header>
+
+      <label class="search">
+        <span class="sr-only">Search places</span>
+        <input id="search" type="search" placeholder="Search a place, street, or note" autocomplete="off" />
+      </label>
+
+      <div class="chips" id="chips" role="group" aria-label="Filter by type"></div>
+
+      <details class="walks-entry discovery">
+        <summary><span>City Walks</span><span class="discovery-hint">Itineraries and neighborhood walks</span></summary>
+        <div class="walks-list" tabindex="0" aria-label="City walks list">
+        <button type="button" id="open-concession-walk" class="walks-entry-button walk-featured"><span><strong>Start here: a French Concession afternoon</strong><small>About 2–3 hours · Wukang Mansion, leafy streets and coffee</small></span><span aria-hidden="true">↗</span></button>
+        <button type="button" data-itinerary="anfuBrunchDate" class="walks-entry-button walk-featured"><span><strong>Brunch and a wander on Anfu Road</strong><small>About 2–3 hours · Galettes, old houses and people-watching</small></span><span aria-hidden="true">↗</span></button>
+        <button type="button" data-itinerary="yanqingCoffeeDate" class="walks-entry-button walk-featured"><span><strong>A quiet coffee date on Yanqing Road</strong><small>About 1–2 hours · Espresso and a slow neighborhood walk</small></span><span aria-hidden="true">↗</span></button>
+        <button type="button" data-itinerary="riversideAfternoon" class="walks-entry-button walk-featured"><span><strong>A riverside afternoon</strong><small>About 2–3 hours · Suzhou Creek to the Bund skyline</small></span><span aria-hidden="true">↗</span></button>
+        <button type="button" data-itinerary="bundEvening" class="walks-entry-button walk-featured"><span><strong>Dinner, skyline and jazz</strong><small>About 3–4 hours · A Bund evening of food and live music</small></span><span aria-hidden="true">↗</span></button>
+        <button type="button" data-itinerary="xintiandiAfternoon" class="walks-entry-button walk-featured"><span><strong>Lanes, lunch and a lake</strong><small>About 2–3 hours · A relaxed Xintiandi afternoon</small></span><span aria-hidden="true">↗</span></button>
+        <button type="button" id="open-wukang-walk" class="walks-entry-button"><span><strong>Wukang Lu</strong><small>Historic houses, little detours &amp; a good wander</small></span><span aria-hidden="true">↗</span></button>
+        <button type="button" id="open-anfu-walk" class="walks-entry-button"><span><strong>Anfu Lu</strong><small>Theater, old houses &amp; coffee stops</small></span><span aria-hidden="true">↗</span></button>
+        <button type="button" id="open-wulumuqi-walk" class="walks-entry-button"><span><strong>Wulumuqi Lu</strong><small>Neighborhood shops, a little history &amp; food</small></span><span aria-hidden="true">↗</span></button>
+        <button type="button" id="open-yanqing-walk" class="walks-entry-button"><span><strong>Yanqing Lu</strong><small>Old houses, coffee &amp; a quiet wander</small></span><span aria-hidden="true">↗</span></button>
+        <button type="button" id="open-wuyuan-walk" class="walks-entry-button"><span><strong>Wuyuan Lu</strong><small>Garden houses &amp; neighborhood history</small></span><span aria-hidden="true">↗</span></button>
+        <button type="button" id="open-xinle-walk" class="walks-entry-button"><span><strong>Xinle Lu</strong><small>Historic houses, lanes &amp; small shops</small></span><span aria-hidden="true">↗</span></button>
+        <button type="button" id="open-changshu-walk" class="walks-entry-button"><span><strong>Changshu Lu</strong><small>A neighborhood connector with stories</small></span><span aria-hidden="true">↗</span></button>
+        <button type="button" id="open-huaihai-walk" class="walks-entry-button"><span><strong>Huaihai Lu</strong><small>Wukang Mansion &amp; historic houses</small></span><span aria-hidden="true">↗</span></button>
+        <button type="button" id="open-changle-walk" class="walks-entry-button"><span><strong>Changle Lu</strong><small>Old houses &amp; neighborhood streets</small></span><span aria-hidden="true">↗</span></button>
+        <button type="button" id="open-fumin-walk" class="walks-entry-button"><span><strong>Fumin Lu</strong><small>Neighborhood stories, coffee &amp; drinks</small></span><span aria-hidden="true">↗</span></button>
+        <button type="button" id="open-bund-walk" class="walks-entry-button"><span><strong>The Bund</strong><small>River views &amp; grand old buildings</small></span><span aria-hidden="true">↗</span></button>
+        <button type="button" id="open-creek-walk" class="walks-entry-button"><span><strong>Suzhou Creek</strong><small>Warehouses, bridges &amp; waterfront</small></span><span aria-hidden="true">↗</span></button>
+        <button type="button" id="open-xintiandi-walk" class="walks-entry-button"><span><strong>Xintiandi</strong><small>Shikumen lanes, history &amp; a lake</small></span><span aria-hidden="true">↗</span></button>
+        </div>
+      </details>
+
+      <details class="favorites discovery" id="favorites">
+        <summary><span>Michael’s Favorites</span><span class="discovery-hint">Browse favorites</span></summary>
+        <div class="favorites-head">
+          <button type="button" id="favorites-filter" class="fav-toggle" aria-pressed="false">Show only these</button>
+        </div>
+        <div class="favorites-list" id="favorites-list" role="list"></div>
+      </details>
+
+      <label class="toggle">
+        <input id="show-hidden" type="checkbox" />
+        <span>Show closed and historical</span>
+      </label>
+
+      <div class="results-head"><div class="list-meta" id="list-meta" aria-live="polite"></div><button type="button" id="clear-filters" class="clear-filters" hidden>Clear filters</button></div>
+      <div class="list" id="list" role="listbox" aria-label="Recommendations"></div>
+    </aside>
+
+    <article class="card" id="card" hidden></article>
+    <article class="mobile-place" id="mobile-place" hidden aria-label="Selected place"></article>
+    <dialog class="photo-viewer" id="photo-viewer" aria-label="Photo gallery"></dialog>
+
+    <nav class="mobile-bar" aria-label="Explore Shanghai">
+      <button type="button" data-mobile-view="map" aria-pressed="true"><span aria-hidden="true">◇</span>Map</button>
+      <button type="button" data-mobile-view="places" aria-pressed="false"><span aria-hidden="true">☰</span>Places</button>
+      <button type="button" data-mobile-view="favorites" aria-pressed="false"><span aria-hidden="true">☆</span>Favorites</button>
+      <button type="button" data-mobile-view="walks" aria-pressed="false"><span aria-hidden="true">↗</span>Walks</button>
+    </nav>
+
+    <button type="button" class="reset-view" id="reset-view">Reset view</button>
+    <button type="button" class="locate-me" id="locate-me" aria-label="Show my location" title="Show my location"><span aria-hidden="true">◎</span></button>
+    <div id="location-status" class="location-status" role="status" aria-live="polite" hidden></div>
+    <button type="button" class="legend-toggle" id="legend-toggle" aria-expanded="false" aria-controls="pin-legend">Pin key</button>
+    <section class="pin-legend" id="pin-legend" aria-label="Map pin key" hidden><div class="legend-heading"><strong>Map pin key</strong><button type="button" id="legend-close" aria-label="Close pin key">×</button></div><p>Pin colors show the type of place.</p><div id="legend-categories" class="legend-categories"></div><p>★ marks a favorite. A dashed ring means the place, branch, or pin is uncertain. A numbered pin groups places at the same spot; its color represents one of them, and its ring is dashed when all of them are uncertain.</p><p>The blue dot shows your approximate location when requested.</p></section>
+
+    <script src="./vendor/maplibre-gl.js"></script>
+    <script src="./data/area-shapes.js?v=area-walks-2"></script>
+    <script src="./data/monid-photos.js"></script>
+    <script src="./data/monid-reviews.js"></script>
+    <script src="./data/city-walks.js?v=itineraries-2"></script>
+    <script src="./app.js?v=itineraries-1"></script>
+  </body>
+</html>
